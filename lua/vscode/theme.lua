@@ -96,10 +96,6 @@ theme.set_highlights = function(opts)
     hl(0, 'QuickFixLine', { bold = true })
 
     -- Treesitter
-    -- start custom colors
-    hl(0, '@keyword.import', {fg = c.vscRed, bg = 'NONE'})
-    hl(0, "@keyword.return", { fg = "#FF7B72", bg = 'NONE' })
-    -- end custom colors
     hl(0, '@error', { fg = c.vscRed, bg = 'NONE' }) -- Legacy
     hl(0, '@punctuation.bracket', { fg = c.vscFront, bg = 'NONE' })
     hl(0, '@punctuation.special', { fg = c.vscFront, bg = 'NONE' })
